@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "mapping_basis": "order_based_provisional",
+  "notes": "Project 1~10과 POSN2 간 명시 키가 없어, 사용자 확인 전까지 Project 1~5를 DG-PV M&A 5개 POSN2 순서와 임시 매핑함.",
+  "mappings": [
+    {
+      "project_no": 1,
+      "project_key": "Project 1",
+      "posn2_id": "POSN2-1HO",
+      "confidence": "provisional"
+    },
+    {
+      "project_no": 2,
+      "project_key": "Project 2",
+      "posn2_id": "POSN2-3HO",
+      "confidence": "provisional"
+    },
+    {
+      "project_no": 3,
+      "project_key": "Project 3",
+      "posn2_id": "POSN2-4HO",
+      "confidence": "provisional"
+    },
+    {
+      "project_no": 4,
+      "project_key": "Project 4",
+      "posn2_id": "POSN2-6HO",
+      "confidence": "provisional"
+    },
+    {
+      "project_no": 5,
+      "project_key": "Project 5",
+      "posn2_id": "POSN2-8HO",
+      "confidence": "provisional"
+    },
+    {
+      "project_no": 6,
+      "project_key": "Project 6",
+      "posn2_id": null,
+      "confidence": "unmapped"
+    },
+    {
+      "project_no": 7,
+      "project_key": "Project 7",
+      "posn2_id": null,
+      "confidence": "unmapped"
+    },
+    {
+      "project_no": 8,
+      "project_key": "Project 8",
+      "posn2_id": null,
+      "confidence": "unmapped"
+    },
+    {
+      "project_no": 9,
+      "project_key": "Project 9",
+      "posn2_id": null,
+      "confidence": "unmapped"
+    },
+    {
+      "project_no": 10,
+      "project_key": "Project 10",
+      "posn2_id": null,
+      "confidence": "unmapped"
+    }
+  ]
+}

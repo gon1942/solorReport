@@ -1,0 +1,55 @@
+{
+  "summary_title": "Equipment Configuration Summary",
+  "sections": [
+    {
+      "title": "Inverters",
+      "bullets": [
+        "KS and KEPCO DER-AVM certified, 100kW string type",
+        "Max efficiency >= 98.6%, DC1000V, IP66, arc-fault protection"
+      ]
+    },
+    {
+      "title": "Solar Panels",
+      "bullets": [
+        "{{panel_desc}}",
+        "Efficiency >= 22%, KS-certified"
+      ]
+    },
+    {
+      "title": "Structure",
+      "bullets": [
+        "{{structure_desc}}",
+        "Wind resistance up to 65 m/s"
+      ]
+    },
+    {
+      "title": "Transformer",
+      "bullets": [
+        "1,200 kVA (380V -> 22.9kV)",
+        "Made in Korea, compliant with national safety standards"
+      ]
+    },
+    {
+      "title": "Monitoring System",
+      "bullets": [
+        "KEPCO DER-AVM compatible, inverter control & emergency stop",
+        "GV system integration under separate review",
+        "Real-time data, alarms, and failure history tracking"
+      ]
+    },
+    {
+      "title": "CCTV",
+      "bullets": [
+        "2 MP CMOS, 1920 x 1080 resolution",
+        "RCPS supported, optional GV integration"
+      ]
+    },
+    {
+      "title": "DC Cable",
+      "bullets": [
+        "PV-dedicated 1C (+/- separate)",
+        "Tray-based wiring installation"
+      ]
+    }
+  ]
+}

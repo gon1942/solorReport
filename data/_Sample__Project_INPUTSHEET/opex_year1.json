@@ -1,0 +1,2394 @@
+{
+  "source": {
+    "file": "/home/gon/work/workspaces_pv_solar/upload/[Sample] Project INPUTSHEET.xlsx",
+    "sheet": "INPUTSHEET",
+    "title_row": 57,
+    "label_col": "B",
+    "unit_col": "D",
+    "projects_detected": [
+      "Project 1",
+      "Project 2",
+      "Project 3",
+      "Project 4",
+      "Project 5",
+      "Project 6",
+      "Project 7",
+      "Project 8",
+      "Project 9",
+      "Project 10",
+      "Project 11",
+      "Project 12",
+      "Project 13"
+    ],
+    "project_columns": [
+      {
+        "project": "Project 1",
+        "col": "E"
+      },
+      {
+        "project": "Project 2",
+        "col": "F"
+      },
+      {
+        "project": "Project 3",
+        "col": "G"
+      },
+      {
+        "project": "Project 4",
+        "col": "H"
+      },
+      {
+        "project": "Project 5",
+        "col": "I"
+      },
+      {
+        "project": "Project 6",
+        "col": "J"
+      },
+      {
+        "project": "Project 7",
+        "col": "K"
+      },
+      {
+        "project": "Project 8",
+        "col": "L"
+      },
+      {
+        "project": "Project 9",
+        "col": "M"
+      },
+      {
+        "project": "Project 10",
+        "col": "N"
+      },
+      {
+        "project": "Project 11",
+        "col": "O"
+      },
+      {
+        "project": "Project 12",
+        "col": "P"
+      },
+      {
+        "project": "Project 13",
+        "col": "Q"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Project 1",
+      "col": "E",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 2",
+      "col": "F",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": "",
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": "",
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 3",
+      "col": "G",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": "",
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": "",
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 4",
+      "col": "H",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": "",
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": "",
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 5",
+      "col": "I",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": "",
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": "",
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 6",
+      "col": "J",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 7",
+      "col": "K",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 8",
+      "col": "L",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 9",
+      "col": "M",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 10",
+      "col": "N",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 11",
+      "col": "O",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 12",
+      "col": "P",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 13",
+      "col": "Q",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": ""
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {},
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    }
+  ]
+}

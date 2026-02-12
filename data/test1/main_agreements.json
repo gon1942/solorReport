@@ -1,0 +1,36 @@
+{
+  "source": {
+    "generated_by": "capex_content_builder._ensure_main_agreements_json",
+    "generated_at": "2026-02-12",
+    "project_count": 9
+  },
+  "epc": {
+    "review_status": "Contractual conditions review status to be confirmed",
+    "signature_target": "TBD",
+    "contractors": [
+      {
+        "name": "EPC contractor allocation pending",
+        "project_count": 9
+      }
+    ]
+  },
+  "rec_sales": {
+    "negotiation_status": "Under discussion",
+    "offtaker_name": "Offtaker to be confirmed",
+    "alias": "TBD",
+    "offtaker_type": "RPS obligor",
+    "term_years": null,
+    "price_krw_per_kwh": 189.0,
+    "offer_valid_until": "end of 2026",
+    "management_approval": "pending"
+  },
+  "om": {
+    "rfp_status": "conducted an RfP for O&M providers",
+    "modelling_alignment": "in line with profitability modelling",
+    "selection_basis": "penalties for non-compliance track records",
+    "leading_candidate": "to be confirmed",
+    "greenvolt_review_status": "pending review and comments",
+    "selected_vendor": "the selected vendor",
+    "proceed_terms": "the same terms and conditions"
+  }
+}

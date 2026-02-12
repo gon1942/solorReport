@@ -1,0 +1,15 @@
+{
+  "source": {
+    "file": "/work/proj/airun/002_poc/airun/pv_solar_sample_docs/지상형태양광_Inputsheet.xlsx",
+    "sheet": "INPUTSHEET(Batch2)",
+    "project": null,
+    "value_col": 5,
+    "value_col_letter": "E",
+    "section_col_letter": "A",
+    "label_col_letter": "A",
+    "start_row": 1,
+    "end_row": null,
+    "exclude_hidden_rows": true
+  },
+  "sections": {}
+}

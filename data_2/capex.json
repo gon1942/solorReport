@@ -1,0 +1,106 @@
+{
+  "source": {
+    "file": "/ryan/11.airun/solar/workspaces_pv_solar/pv_solar_sample_docs/test2.xlsx",
+    "sheet": "SPV별 CAPEX 현황",
+    "title_row": 1,
+    "label_col": "A",
+    "unit_col": "C",
+    "projects_detected": [
+      "Project 1",
+      "Project 2",
+      "Project 3",
+      "Project 4",
+      "Project 5",
+      "Project 6",
+      "Project 8",
+      "Project 9",
+      "Project 10"
+    ],
+    "project_columns": [
+      {
+        "project": "Project 1",
+        "col": "E"
+      },
+      {
+        "project": "Project 2",
+        "col": "F"
+      },
+      {
+        "project": "Project 3",
+        "col": "G"
+      },
+      {
+        "project": "Project 4",
+        "col": "H"
+      },
+      {
+        "project": "Project 5",
+        "col": "I"
+      },
+      {
+        "project": "Project 6",
+        "col": "J"
+      },
+      {
+        "project": "Project 8",
+        "col": "L"
+      },
+      {
+        "project": "Project 9",
+        "col": "M"
+      },
+      {
+        "project": "Project 10",
+        "col": "N"
+      }
+    ],
+    "used_global_project_map": true
+  },
+  "projects": [
+    {
+      "name": "Project 1",
+      "col": "E",
+      "capex": {}
+    },
+    {
+      "name": "Project 2",
+      "col": "F",
+      "capex": {}
+    },
+    {
+      "name": "Project 3",
+      "col": "G",
+      "capex": {}
+    },
+    {
+      "name": "Project 4",
+      "col": "H",
+      "capex": {}
+    },
+    {
+      "name": "Project 5",
+      "col": "I",
+      "capex": {}
+    },
+    {
+      "name": "Project 6",
+      "col": "J",
+      "capex": {}
+    },
+    {
+      "name": "Project 8",
+      "col": "L",
+      "capex": {}
+    },
+    {
+      "name": "Project 9",
+      "col": "M",
+      "capex": {}
+    },
+    {
+      "name": "Project 10",
+      "col": "N",
+      "capex": {}
+    }
+  ]
+}

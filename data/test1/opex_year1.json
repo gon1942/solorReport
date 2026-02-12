@@ -1,0 +1,2420 @@
+{
+  "source": {
+    "file": "/home/gon/work/workspaces_pv_solar/upload/test1.xlsx",
+    "sheet": "INPUTSHEET(BOLT 2)",
+    "title_row": 57,
+    "label_col": "B",
+    "unit_col": "D",
+    "projects_detected": [
+      "Project 1",
+      "Project 2",
+      "Project 3",
+      "Project 4",
+      "Project 5",
+      "Project 6",
+      "Project 7",
+      "Project 8",
+      "Project 9",
+      "Project 10",
+      "Project 11",
+      "Project 12",
+      "Project 13"
+    ],
+    "project_columns": [
+      {
+        "project": "Project 1",
+        "col": "E"
+      },
+      {
+        "project": "Project 2",
+        "col": "F"
+      },
+      {
+        "project": "Project 3",
+        "col": "G"
+      },
+      {
+        "project": "Project 4",
+        "col": "H"
+      },
+      {
+        "project": "Project 5",
+        "col": "I"
+      },
+      {
+        "project": "Project 6",
+        "col": "J"
+      },
+      {
+        "project": "Project 7",
+        "col": "K"
+      },
+      {
+        "project": "Project 8",
+        "col": "L"
+      },
+      {
+        "project": "Project 9",
+        "col": "M"
+      },
+      {
+        "project": "Project 10",
+        "col": "N"
+      },
+      {
+        "project": "Project 11",
+        "col": "O"
+      },
+      {
+        "project": "Project 12",
+        "col": "P"
+      },
+      {
+        "project": "Project 13",
+        "col": "Q"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Project 1",
+      "col": "E",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 10215125,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 2124746,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 4903260,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 32688400,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 3187119,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 898931000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 653768000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": 147097800,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 98065200,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 286023500,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 2",
+      "col": "F",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 3008625,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 625794,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 1444140,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": "",
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 9627600,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 938691,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 264759000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 192552000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": "",
+          "Currency": "",
+          "Cost": 43324200,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 28882800,
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 84241500,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 3",
+      "col": "G",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 4828000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 1004224.0000000001,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 2317440,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": "",
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 15449600.000000002,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 1506336,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 424864000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 308992000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": "",
+          "Currency": "",
+          "Cost": 69523200,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 46348800,
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 173808000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 4",
+      "col": "H",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 2625000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 546000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 1260000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": "",
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 8400000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 819000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 231000000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 168000000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": "",
+          "Currency": "",
+          "Cost": 37800000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 25200000,
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 94500000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 5",
+      "col": "I",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 1525000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 317200,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 732000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": "",
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 4880000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 475800,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 134200000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 97600000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": "",
+          "Currency": "",
+          "Cost": 21960000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 14640000,
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 54900000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 6",
+      "col": "J",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 5475000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 1138800,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 2628000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 17520000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 1708200,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 481800000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 350400000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": 78840000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 52560000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 197100000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 7",
+      "col": "K",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 2137500,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 444600.00000000006,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 1026000.0000000001,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 6840000.000000001,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 666900,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 188100000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 136800000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": 30780000.000000004,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 20520000,
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 76950000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 8",
+      "col": "L",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 6587500,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 1370200,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 3162000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 21080000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 2055300,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 579700000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 421600000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": 94860000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 63240000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 237150000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 9",
+      "col": "M",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 2925000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 608400,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 1404000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 9360000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 912600,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 257400000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 187200000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": 42120000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 28080000,
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 105300000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 10",
+      "col": "N",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 6250000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 1300000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-10-01T00:00:00",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 3000000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 20000000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 1950000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-05-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 550000000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 400000000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": 90000000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 60000000,
+          "Indexed?": "No",
+          "Indexation reference date": "2025-12-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 225000000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 11",
+      "col": "O",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 1587500,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 330200,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 762000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 5080000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 495300,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 139700000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 101600000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": 22860000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 15240000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 57150000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 12",
+      "col": "P",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 2012500,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 418600,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 966000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 6440000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 627900,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 177100000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 128800000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": 28980000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 19320000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 72450000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 13",
+      "col": "Q",
+      "opex_year1": {
+        "O&M": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 3362500,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        "Asset Management": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "MAS (accounting and other administrative not included AM)": {
+          "Currency": "",
+          "Cost": 699400,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 2.6 Million/MW"
+        },
+        "Energy Consumption": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "2023-11-30T00:00:00",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in O&M cost"
+        },
+        "Insurance": {
+          "Currency": "",
+          "Cost": 1614000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-03-31T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 6 Million/MW"
+        },
+        "Local tax payment": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "#REF!",
+          "Indexation %": "N/A",
+          "Cost starting date": "#REF!",
+          "Comments": "Included in Contingency cost"
+        },
+        "Land lease": {
+          "enabled": 40000000,
+          "Currency": "",
+          "Hectares": 0,
+          "Cost": 10760000,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "N/A",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": "N/A"
+        },
+        "Contingency": {
+          "Currency": "",
+          "Cost": 1049100,
+          "Indexed?": "Yes",
+          "Indexation reference date": "2026-06-30T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-06-30T00:00:00",
+          "Comments": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        "Capex": {
+          "enabled": "Cost"
+        },
+        "CAPEX TOTAL": {
+          "enabled": 295900000
+        },
+        "BOS": {
+          "enabled": true,
+          "Currency": "",
+          "Cost": 215200000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.5,
+          "Comments": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        "Modules": {
+          "enabled": 180000000,
+          "Currency": "",
+          "Cost": 48420000,
+          "Indexed?": "Yes",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Grid Connection Cost": {
+          "Currency": "",
+          "Cost": 32280000.000000004,
+          "Indexed?": "No",
+          "Indexation reference date": "2026-01-31T00:00:00",
+          "Indexation %": "",
+          "Monthly distribution": 1,
+          "Comments": ""
+        },
+        "Development cost": {
+          "enabled": false,
+          "Currency": "",
+          "Cost": 134500000,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0.3,
+          "Comments": ""
+        },
+        "Other": {
+          "Currency": "",
+          "Cost": "",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": 0,
+          "Comments": ""
+        },
+        "Other Development cost": {
+          "Currency": "",
+          "Cost": 0,
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "",
+          "Comments": ""
+        },
+        "Other Capex": {
+          "Currency": "EUR",
+          "Cost": "#REF!",
+          "Indexed?": "No",
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Monthly distribution": "#REF!",
+          "Comments": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "source": {
+    "file": "pv_solar_sample_docs/test2.xlsx",
+    "sheet": "DG-PV M&A",
+    "header_row": 2,
+    "data_rows": [3, 4, 5, 6, 7],
+    "updated_at": "2026-02-11"
+  },
+  "projects": [
+    {
+      "posn2_id": "POSN2-1HO",
+      "permits": {
+        "EBL": {
+          "raw": "By 06 Apr '26",
+          "normalized": "scheduled"
+        },
+        "EIA": {
+          "raw": "Yes",
+          "normalized": "completed"
+        },
+        "DAP": {
+          "raw": "By 31 Dec '26",
+          "normalized": "scheduled"
+        },
+        "Hanjeon PPA (GIA)": {
+          "raw": "Hanjeon PPA Applied",
+          "normalized": "in_progress"
+        }
+      },
+      "ppa": {
+        "company": "TBD",
+        "date": null
+      }
+    },
+    {
+      "posn2_id": "POSN2-3HO",
+      "permits": {
+        "EBL": {
+          "raw": "By 25 Sep '27",
+          "normalized": "scheduled"
+        },
+        "EIA": {
+          "raw": "Yes",
+          "normalized": "completed"
+        },
+        "DAP": {
+          "raw": "By 31 Oct '25",
+          "normalized": "scheduled"
+        },
+        "Hanjeon PPA (GIA)": {
+          "raw": "Hanjeon PPA Applied",
+          "normalized": "in_progress"
+        }
+      },
+      "ppa": {
+        "company": "TBD",
+        "date": null
+      }
+    },
+    {
+      "posn2_id": "POSN2-4HO",
+      "permits": {
+        "EBL": {
+          "raw": "By 17 Nov '27",
+          "normalized": "scheduled"
+        },
+        "EIA": {
+          "raw": "Yes",
+          "normalized": "completed"
+        },
+        "DAP": {
+          "raw": "By 31 Oct '25",
+          "normalized": "scheduled"
+        },
+        "Hanjeon PPA (GIA)": {
+          "raw": "Hanjeon PPA Applied",
+          "normalized": "in_progress"
+        }
+      },
+      "ppa": {
+        "company": "TBD",
+        "date": null
+      }
+    },
+    {
+      "posn2_id": "POSN2-6HO",
+      "permits": {
+        "EBL": {
+          "raw": "By 05 Jun '26",
+          "normalized": "scheduled"
+        },
+        "EIA": {
+          "raw": "Yes",
+          "normalized": "completed"
+        },
+        "DAP": {
+          "raw": "Accepted Jan '25",
+          "normalized": "completed"
+        },
+        "Hanjeon PPA (GIA)": {
+          "raw": "Hanjeon PPA Applied",
+          "normalized": "in_progress"
+        }
+      },
+      "ppa": {
+        "company": "TBD",
+        "date": null
+      }
+    },
+    {
+      "posn2_id": "POSN2-8HO",
+      "permits": {
+        "EBL": {
+          "raw": "By 09 Jul '26",
+          "normalized": "scheduled"
+        },
+        "EIA": {
+          "raw": "Yes",
+          "normalized": "completed"
+        },
+        "DAP": {
+          "raw": "Applied",
+          "normalized": "in_progress"
+        },
+        "Hanjeon PPA (GIA)": {
+          "raw": "Hanjeon PPA Applied",
+          "normalized": "in_progress"
+        }
+      },
+      "ppa": {
+        "company": "TBD",
+        "date": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+{
+  "source": {
+    "file": "/home/gon/work/workspaces_pv_solar/upload/test1.xlsx",
+    "sheet": "INPUTSHEET(BOLT 7,4)",
+    "project_header_row": 2,
+    "label_col": "B",
+    "projects_detected": [
+      "Project 2",
+      "Project 3",
+      "Project 1",
+      "Project 4",
+      "Project 5",
+      "Project 6",
+      "Project 7",
+      "Project 8",
+      "Project 9"
+    ],
+    "project_columns": [
+      {
+        "project": "Project 2",
+        "col": "F"
+      },
+      {
+        "project": "Project 3",
+        "col": "G"
+      },
+      {
+        "project": "Project 1",
+        "col": "H"
+      },
+      {
+        "project": "Project 4",
+        "col": "K"
+      },
+      {
+        "project": "Project 5",
+        "col": "L"
+      },
+      {
+        "project": "Project 6",
+        "col": "M"
+      },
+      {
+        "project": "Project 7",
+        "col": "N"
+      },
+      {
+        "project": "Project 8",
+        "col": "O"
+      },
+      {
+        "project": "Project 9",
+        "col": "P"
+      }
+    ],
+    "hidden_project_columns": [
+      {
+        "project": "Project 1",
+        "col": "E"
+      },
+      {
+        "project": "Project 10",
+        "col": "Q"
+      },
+      {
+        "project": "Project 1",
+        "col": "T"
+      }
+    ],
+    "dropped_duplicate_projects": [
+      {
+        "project": "Project 2",
+        "col": "I",
+        "reason": "duplicate_project_name"
+      },
+      {
+        "project": "Project 3",
+        "col": "J",
+        "reason": "duplicate_project_name"
+      }
+    ],
+    "missing_sections": []
+  },
+  "projects": [
+    {
+      "name": "Project 2",
+      "col": "F",
+      "general_inputs": {
+        "Seller/developer name": "Younggwang Industry",
+        "Project name": "Younggwang Industry",
+        "Country": "Korea",
+        "Region": "Gyeonggi-do",
+        "Technology": "PV",
+        "Project Status": "RtB",
+        "Transaction structure": "ROOFTOP",
+        "Input source": "Internal assumptions",
+        "Currency": "KRW",
+        "RTB date": "2025-11-01T00:00:00",
+        "Construction phase": 5,
+        "SOC date": "2026-02-28T00:00:00",
+        "COD date": "2026-05-31T00:00:00",
+        "Asset Useful Life": 20,
+        "WTG / Panels number": "N/A",
+        "WTG / Panels name": "N/A",
+        "Total Capacity DC": 0.545465,
+        "Total Capacity AC": null,
+        "DC/AC ratio": "#DIV/0!"
+      },
+      "production": {
+        "Load Factor (After Curtailment)": {
+          "P50": "",
+          "P75": "",
+          "P90": ""
+        },
+        "Number of Equivalent Hours (day)": {
+          "P50": 3.8575342465753426,
+          "P75": "",
+          "P90": ""
+        },
+        "Production": {
+          "P50": 768.01472,
+          "P75": "",
+          "Specific Production": "",
+          "Availability": "",
+          "Months before degradation": "",
+          "Start of degradation": "",
+          "Degradation Factor": 0.002,
+          "Electricity losses": 0.02,
+          "Grid and BoS losses": "",
+          "Other losses": "",
+          "Opex - year 1": "Cost",
+          "O&M": true
+        },
+        "Currency": {
+          "Cost": 2127313.5,
+          "Indexed?": 1,
+          "Indexation reference date": "2026-02-28T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "",
+          "Hectares": 0
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 3",
+      "col": "G",
+      "general_inputs": {
+        "Seller/developer name": "MPM Trade",
+        "Project name": "MPM Trade",
+        "Country": "Korea",
+        "Region": "Gyeonggi-do",
+        "Technology": "PV",
+        "Project Status": "RtB",
+        "Transaction structure": "ROOFTOP",
+        "Input source": "Internal assumptions",
+        "Currency": "KRW",
+        "RTB date": "2025-11-01T00:00:00",
+        "Construction phase": 5,
+        "SOC date": "2026-02-28T00:00:00",
+        "COD date": "2026-05-31T00:00:00",
+        "Asset Useful Life": 20,
+        "WTG / Panels number": "N/A",
+        "WTG / Panels name": "N/A",
+        "Total Capacity DC": 0.21081999999999998,
+        "Total Capacity AC": null,
+        "DC/AC ratio": "#DIV/0!"
+      },
+      "production": {
+        "Load Factor (After Curtailment)": {
+          "P50": "",
+          "P75": "",
+          "P90": ""
+        },
+        "Number of Equivalent Hours (day)": {
+          "P50": 3.9808219178082194,
+          "P75": "",
+          "P90": ""
+        },
+        "Production": {
+          "P50": 306.32146,
+          "P75": "",
+          "Specific Production": "",
+          "Availability": "",
+          "Months before degradation": "",
+          "Start of degradation": "",
+          "Degradation Factor": 0.002,
+          "Electricity losses": 0.02,
+          "Grid and BoS losses": "",
+          "Other losses": "",
+          "Opex - year 1": "Cost",
+          "O&M": true
+        },
+        "Currency": {
+          "Cost": 822197.9999999999,
+          "Indexed?": 1,
+          "Indexation reference date": "2026-02-28T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-05-31T00:00:00",
+          "Comments": "",
+          "Hectares": 0
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 1",
+      "col": "H",
+      "general_inputs": {
+        "Seller/developer name": "Daesung Fruit Industry",
+        "Project name": "Daesung Fruit Industry",
+        "Country": "Korea",
+        "Region": "Gyeonggi-do",
+        "Technology": "PV",
+        "Project Status": "EBL",
+        "Transaction structure": "ROOFTOP",
+        "Input source": "Internal assumptions",
+        "Currency": "KRW",
+        "RTB date": "2026-04-01T00:00:00",
+        "Construction phase": 5,
+        "SOC date": "2026-06-01T00:00:00",
+        "COD date": "2026-09-01T00:00:00",
+        "Asset Useful Life": 20,
+        "WTG / Panels number": "N/A",
+        "WTG / Panels name": "N/A",
+        "Total Capacity DC": 0.315,
+        "Total Capacity AC": null,
+        "DC/AC ratio": "#DIV/0!"
+      },
+      "production": {
+        "Load Factor (After Curtailment)": {
+          "P50": "",
+          "P75": "",
+          "P90": ""
+        },
+        "Number of Equivalent Hours (day)": {
+          "P50": 3.9205479452054797,
+          "P75": "",
+          "P90": ""
+        },
+        "Production": {
+          "P50": 450.76500000000004,
+          "P75": "",
+          "Specific Production": "",
+          "Availability": "",
+          "Months before degradation": "",
+          "Start of degradation": "",
+          "Degradation Factor": 0.004,
+          "Electricity losses": 0.02,
+          "Grid and BoS losses": "",
+          "Other losses": "",
+          "Opex - year 1": "Cost",
+          "O&M": true
+        },
+        "Currency": {
+          "Cost": 1228500,
+          "Indexed?": 1,
+          "Indexation reference date": "2026-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-09-01T00:00:00",
+          "Comments": "",
+          "Hectares": 0
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 4",
+      "col": "K",
+      "general_inputs": {
+        "Seller/developer name": "Ilsan Metal",
+        "Project name": "Ilsan Metal",
+        "Country": "Korea",
+        "Region": "Gyeonggi-do",
+        "Technology": "PV",
+        "Project Status": "EBL",
+        "Transaction structure": "ROOFTOP",
+        "Input source": "Internal assumptions",
+        "Currency": "KRW",
+        "RTB date": "2026-04-01T00:00:00",
+        "Construction phase": 5,
+        "SOC date": "2026-06-01T00:00:00",
+        "COD date": "2026-09-01T00:00:00",
+        "Asset Useful Life": 20,
+        "WTG / Panels number": "N/A",
+        "WTG / Panels name": "N/A",
+        "Total Capacity DC": 0.156,
+        "Total Capacity AC": null,
+        "DC/AC ratio": "#DIV/0!"
+      },
+      "production": {
+        "Load Factor (After Curtailment)": {
+          "P50": "",
+          "P75": "",
+          "P90": ""
+        },
+        "Number of Equivalent Hours (day)": {
+          "P50": 3.797260273972603,
+          "P75": "",
+          "P90": ""
+        },
+        "Production": {
+          "P50": 216.216,
+          "P75": "",
+          "Specific Production": "",
+          "Availability": "",
+          "Months before degradation": "",
+          "Start of degradation": "",
+          "Degradation Factor": 0.004,
+          "Electricity losses": 0.02,
+          "Grid and BoS losses": "",
+          "Other losses": "",
+          "Opex - year 1": "Cost",
+          "O&M": true
+        },
+        "Currency": {
+          "Cost": 608400,
+          "Indexed?": 1,
+          "Indexation reference date": "2026-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-09-01T00:00:00",
+          "Comments": "",
+          "Land lease": 40000000,
+          "Hectares": 0
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 5",
+      "col": "L",
+      "general_inputs": {
+        "Seller/developer name": "LC-Tech",
+        "Project name": "LC-Tech",
+        "Country": "Korea",
+        "Region": "Gyeonggi-do",
+        "Technology": "PV",
+        "Project Status": "EBL",
+        "Transaction structure": "ROOFTOP",
+        "Input source": "Internal assumptions",
+        "Currency": "KRW",
+        "RTB date": "2026-05-01T00:00:00",
+        "Construction phase": 5,
+        "SOC date": "2026-07-01T00:00:00",
+        "COD date": "2026-10-01T00:00:00",
+        "Asset Useful Life": 20,
+        "WTG / Panels number": "N/A",
+        "WTG / Panels name": "N/A",
+        "Total Capacity DC": 0.173,
+        "Total Capacity AC": null,
+        "DC/AC ratio": "#DIV/0!"
+      },
+      "production": {
+        "Load Factor (After Curtailment)": {
+          "P50": "",
+          "P75": "",
+          "P90": ""
+        },
+        "Number of Equivalent Hours (day)": {
+          "P50": 4.06027397260274,
+          "P75": "",
+          "P90": ""
+        },
+        "Production": {
+          "P50": 256.386,
+          "P75": "",
+          "Specific Production": "",
+          "Availability": "",
+          "Months before degradation": "",
+          "Start of degradation": "",
+          "Degradation Factor": 0.004,
+          "Electricity losses": 0.02,
+          "Grid and BoS losses": "",
+          "Other losses": "",
+          "Opex - year 1": "Cost",
+          "O&M": true
+        },
+        "Currency": {
+          "Cost": 674700,
+          "Indexed?": 1,
+          "Indexation reference date": "2026-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-10-01T00:00:00",
+          "Comments": "",
+          "Land lease": 40000000,
+          "Hectares": 0
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "2025-09-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-09-01T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 6",
+      "col": "M",
+      "general_inputs": {
+        "Seller/developer name": "Lijin Factory 1",
+        "Project name": "Lijin Factory 1",
+        "Country": "Korea",
+        "Region": "Gyeonggi-do",
+        "Technology": "PV",
+        "Project Status": "EBL",
+        "Transaction structure": "ROOFTOP",
+        "Input source": "Internal assumptions",
+        "Currency": "KRW",
+        "RTB date": "2026-05-01T00:00:00",
+        "Construction phase": 5,
+        "SOC date": "2026-07-01T00:00:00",
+        "COD date": "2026-10-01T00:00:00",
+        "Asset Useful Life": 20,
+        "WTG / Panels number": "N/A",
+        "WTG / Panels name": "N/A",
+        "Total Capacity DC": 0.227,
+        "Total Capacity AC": null,
+        "DC/AC ratio": "#DIV/0!"
+      },
+      "production": {
+        "Load Factor (After Curtailment)": {
+          "P50": "",
+          "P75": "",
+          "P90": ""
+        },
+        "Number of Equivalent Hours (day)": {
+          "P50": 3.8547945205479452,
+          "P75": "",
+          "P90": ""
+        },
+        "Production": {
+          "P50": 319.389,
+          "P75": "",
+          "Specific Production": "",
+          "Availability": "",
+          "Months before degradation": "",
+          "Start of degradation": "",
+          "Degradation Factor": 0.004,
+          "Electricity losses": 0.02,
+          "Grid and BoS losses": "",
+          "Other losses": "",
+          "Opex - year 1": "Cost",
+          "O&M": true
+        },
+        "Currency": {
+          "Cost": 885300,
+          "Indexed?": 1,
+          "Indexation reference date": "2026-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-10-01T00:00:00",
+          "Comments": "",
+          "Land lease": 40000000,
+          "Hectares": 0
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "2025-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2025-10-01T00:00:00",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 7",
+      "col": "N",
+      "general_inputs": {
+        "Seller/developer name": "Lijin Factory 2",
+        "Project name": "Lijin Factory 2",
+        "Country": "Korea",
+        "Region": "Gyeonggi-do",
+        "Technology": "PV",
+        "Project Status": "EBL",
+        "Transaction structure": "ROOFTOP",
+        "Input source": "Internal assumptions",
+        "Currency": "KRW",
+        "RTB date": "2026-05-01T00:00:00",
+        "Construction phase": 5,
+        "SOC date": "2026-07-01T00:00:00",
+        "COD date": "2026-10-01T00:00:00",
+        "Asset Useful Life": 20,
+        "WTG / Panels number": "N/A",
+        "WTG / Panels name": "N/A",
+        "Total Capacity DC": 0.233,
+        "Total Capacity AC": null,
+        "DC/AC ratio": "#DIV/0!"
+      },
+      "production": {
+        "Load Factor (After Curtailment)": {
+          "P50": "",
+          "P75": "",
+          "P90": ""
+        },
+        "Number of Equivalent Hours (day)": {
+          "P50": 3.8273972602739725,
+          "P75": "",
+          "P90": ""
+        },
+        "Production": {
+          "P50": 325.50100000000003,
+          "P75": "",
+          "Specific Production": "",
+          "Availability": "",
+          "Months before degradation": "",
+          "Start of degradation": "",
+          "Degradation Factor": 0.004,
+          "Electricity losses": 0.02,
+          "Grid and BoS losses": "",
+          "Other losses": "",
+          "Opex - year 1": "Cost",
+          "O&M": true
+        },
+        "Currency": {
+          "Cost": 908700,
+          "Indexed?": 1,
+          "Indexation reference date": "2026-10-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-10-01T00:00:00",
+          "Comments": "",
+          "Land lease": 40000000,
+          "Hectares": 0
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 8",
+      "col": "O",
+      "general_inputs": {
+        "Seller/developer name": "kinam Metal",
+        "Project name": "kinam Metal",
+        "Country": "Korea",
+        "Region": "Gyeongsangbuk-do",
+        "Technology": "PV",
+        "Project Status": "EBL",
+        "Transaction structure": "ROOFTOP",
+        "Input source": "Internal assumptions",
+        "Currency": "KRW",
+        "RTB date": "2026-06-01T00:00:00",
+        "Construction phase": 5,
+        "SOC date": "2026-08-01T00:00:00",
+        "COD date": "2026-11-01T00:00:00",
+        "Asset Useful Life": 20,
+        "WTG / Panels number": "N/A",
+        "WTG / Panels name": "N/A",
+        "Total Capacity DC": 0.237,
+        "Total Capacity AC": null,
+        "DC/AC ratio": "#DIV/0!"
+      },
+      "production": {
+        "Load Factor (After Curtailment)": {
+          "P50": "",
+          "P75": "",
+          "P90": ""
+        },
+        "Number of Equivalent Hours (day)": {
+          "P50": 3.9205479452054797,
+          "P75": "",
+          "P90": ""
+        },
+        "Production": {
+          "P50": 339.147,
+          "P75": "",
+          "Specific Production": "",
+          "Availability": "",
+          "Months before degradation": "",
+          "Start of degradation": "",
+          "Degradation Factor": 0.004,
+          "Electricity losses": 0.02,
+          "Grid and BoS losses": "",
+          "Other losses": "",
+          "Opex - year 1": "Cost",
+          "O&M": true
+        },
+        "Currency": {
+          "Cost": 924300,
+          "Indexed?": 1,
+          "Indexation reference date": "2026-11-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-11-01T00:00:00",
+          "Comments": "",
+          "Land lease": 40000000,
+          "Hectares": 0
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        }
+      }
+    },
+    {
+      "name": "Project 9",
+      "col": "P",
+      "general_inputs": {
+        "Seller/developer name": "JK Fiber",
+        "Project name": "JK Fiber",
+        "Country": "Korea",
+        "Region": "Gyeonggi-do",
+        "Technology": "PV",
+        "Project Status": "EBL",
+        "Transaction structure": "ROOFTOP",
+        "Input source": "Internal assumptions",
+        "Currency": "KRW",
+        "RTB date": "2026-06-01T00:00:00",
+        "Construction phase": 5,
+        "SOC date": "2026-08-01T00:00:00",
+        "COD date": "2026-11-01T00:00:00",
+        "Asset Useful Life": 20,
+        "WTG / Panels number": "N/A",
+        "WTG / Panels name": "N/A",
+        "Total Capacity DC": 0.165,
+        "Total Capacity AC": null,
+        "DC/AC ratio": "#DIV/0!"
+      },
+      "production": {
+        "Load Factor (After Curtailment)": {
+          "P50": "",
+          "P75": "",
+          "P90": ""
+        },
+        "Number of Equivalent Hours (day)": {
+          "P50": 3.6904109589041094,
+          "P75": "",
+          "P90": ""
+        },
+        "Production": {
+          "P50": 222.255,
+          "P75": "",
+          "Specific Production": "",
+          "Availability": "",
+          "Months before degradation": "",
+          "Start of degradation": "",
+          "Degradation Factor": 0.004,
+          "Electricity losses": 0.02,
+          "Grid and BoS losses": "",
+          "Other losses": "",
+          "Opex - year 1": "Cost",
+          "O&M": true
+        },
+        "Currency": {
+          "Cost": 643500,
+          "Indexed?": 1,
+          "Indexation reference date": "2026-11-01T00:00:00",
+          "Indexation %": "CPI",
+          "Cost starting date": "2026-11-01T00:00:00",
+          "Comments": "",
+          "Land lease": 40000000,
+          "Hectares": 0
+        },
+        "Security Services": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "#REF!",
+          "Indexation %": "#REF!",
+          "Cost starting date": "#REF!",
+          "Comments": ""
+        },
+        "Other 1": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        },
+        "Other 2": {
+          "Currency": "EUR",
+          "Cost": "",
+          "Indexed?": 1,
+          "Indexation reference date": "",
+          "Indexation %": "",
+          "Cost starting date": "",
+          "Comments": ""
+        }
+      }
+    }
+  ]
+}

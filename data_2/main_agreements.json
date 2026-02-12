@@ -1,0 +1,40 @@
+{
+  "source": {
+    "generated_by": "capex_content_builder._ensure_main_agreements_json",
+    "generated_at": "2026-02-11",
+    "project_count": 10
+  },
+  "epc": {
+    "review_status": "All contractual conditions reviewed and approved by Greenvolt",
+    "signature_target": "Dec 2025",
+    "contractors": [
+      {
+        "name": "Hyosung Energy Farm (HEF)",
+        "project_count": 10
+      },
+      {
+        "name": "Hanwha Daebo",
+        "project_count": 3
+      }
+    ]
+  },
+  "rec_sales": {
+    "negotiation_status": "Under discussion",
+    "offtaker_name": "Samcheok Bluepower",
+    "alias": "SBP",
+    "offtaker_type": "RPS obligor",
+    "term_years": 20,
+    "price_krw_per_kwh": 189.0,
+    "offer_valid_until": "end of 2025",
+    "management_approval": "pending"
+  },
+  "om": {
+    "rfp_status": "conducted an RfP for O&M providers and shortlisted candidates",
+    "modelling_alignment": "in line with profitability modelling",
+    "selection_basis": "penalties for non-compliance track records",
+    "leading_candidate": "Enerdot",
+    "greenvolt_review_status": "completed based on Greenvolt comments for the POSN2 O&M contract",
+    "selected_vendor": "Enerdot",
+    "proceed_terms": "the same POSN2 terms and conditions"
+  }
+}

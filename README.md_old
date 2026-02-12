@@ -1,0 +1,234 @@
+# PV Solar 데이터 업로드 워크스페이스
+
+## 개요
+
+이 워크스페이스는 태양광 발전(PV Solar) 데이터를 전문화된 AI 처리를 통해 최적화된 RAG(검색 증강 생성) 시스템으로 변환하는 기능을 제공합니다. 
+기존의 일반 Excel 업로드 기능을 PV Solar 특화 버전으로 확장하여, 에너지 데이터의 특성을 고려한 전처리 및 분석을 수행합니다.
+
+## 주요 기능
+
+### 1. PV Solar 전문 AI 분석
+- **에너지 데이터 인식**: 발전량, 전력, 효율 등 에너지 관련 자동 필드 식별
+- **날씨 데이터 통합**: 일사량, 기온 등 환경 요인과 발전량 상관관계 분석
+- **시간대별 분석**: 생산 피크 시간대 패턴 식별 및 시계열 데이터 처리
+- **성능 모니터링**: 실측/정격 비율, 시스템 효율 등 성능 메트릭 추출
+
+### 2. 특화 전처리 옵션
+- **에너지 단위 정규화**: kW, MW, Wh, MWh 등 다양한 단위 표준화
+- **날짜 형식 통일**: 여러 날짜 포맷을 표준화된 형식으로 변환
+- **위치 정보 정규화**: 지리적 데이터 표준화 및 위치 기반 분석
+- **프로젝트 메타데이터**: 프로젝트 유형, 설치 일자, 용량 등 추가 정보 관리
+
+### 3. AI 기반 필드 추천
+- **필수 필드 선별**: PV Solar 분석에 필수적인 5-8개 핵심 필드 자동 추천
+- **중복 필드 제거**: 의미가 중복되는 필드 자동 식별 및 제거
+- **데이터 품질 평가**: 데이터 완성도와 신뢰도 기반 필드 가중치 부여
+- **메타데이터 필터링**: 분석과 무관한 시스템 필드 자동 제외
+
+### 4. RAG 시스템 통합
+- **테이블 기반 청킹**: PV 데이터 특성에 맞는 테이블 단위로 문서 분할
+- **임베딩 최적화**: 에너지 데이터에 특화된 임베딩 전략 적용
+- **검색 향상**: 시간대별, 날씨별 필터링으로 정확도 향상
+- **GraphRAG 지원**: PV 데이터의 지식 그래프 구축
+
+## 아키텍처
+
+### 파일 구조
+```
+workspaces_pv_solar/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx                    # 메인 페이지
+│   │   ├── api/
+│   │   │   ├── rag/
+│   │   │   │   └── upload/             # PV Solar 업로드 API
+│   │   │   └── preprocess/
+│   │   │       └── pv-solar/
+│   │   │           └── excel/
+│   │   │               ├── analyze/    # 파일 분석 API
+│   │   │               └── recommend/  # AI 추천 API
+│   │   └── layout.tsx
+│   │   └── globals.css
+│   └── components/
+│       └── PVSolarExcelPreprocessModal.tsx  # PV Solar 전처리 모달
+├── package.json
+├── tsconfig.json
+├── next.config.js
+└── README.md
+```
+
+### API 엔드포인트
+
+#### 1. 파일 분석 API
+- **경로**: `/api/preprocess/pv-solar/excel/analyze`
+- **메소드**: POST
+- **기능**: PV Solar Excel 파일의 구조 분석 및 시트별 정보 추출
+- **응답**: 시트 목록, 헤더 정보, 데이터 미리보기
+
+#### 2. AI 추천 API
+- **경로**: `/api/preprocess/pv-solar/excel/recommend`
+- **메소드**: POST
+- **기능**: PV Solar 데이터에 최적화된 필드 추천 및 인사이트 생성
+- **응답**: 추천 필드, AI 분석 결과, PV Solar 특화 인사이트
+
+#### 3. 업로드 API
+- **경로**: `/api/rag/upload`
+- **메소드**: POST
+- **기능**: PV Solar 파일을 RAG 시스템에 업로드 및 처리
+- **파라미터**: PV Solar 특화 옵션 포함된 모든 RAG 파라미터
+
+## 사용 방법
+
+### 1. 파일 업로드
+1. PV Solar Excel 파일 선택 (.xlsx, .xls, .csv)
+2. 시트 선택 (여러 시트 중 분석할 시트 선택)
+3. 처리 모드 선택 (AI 자동 추천 또는 수동 설정)
+
+### 2. AI 추천 모드
+1. **AI 분석 실행**: PV Solar 전문 AI가 자동으로 데이터 분석
+2. **필드 추천**: 핵심 필드 5-8개 자동 선별
+3. **인사이트 생성**: PV Solar 특화 인사이트 생성
+   - 생산 피크 시간대
+   - 날씨 요인별 영향력
+   - 유지보수 패턴
+   - 성능 메트릭
+
+### 3. 수동 설정 모드
+1. **열 선택**: 필드별 선택/해제
+2. **필터링**: 행 필터 조건 설정
+3. **데이터 분할**: 대용량 데이터 분할 옵션
+4. **전처리 설정**: 헤더 정규화, 포맷 유지 등
+
+### 4. PV Solar 특화 설정
+1. **에너지 단위 선택**: kW, MW, Wh, MWh
+2. **정규화 옵션**:
+   - 날짜 형식 통일
+   - 날씨 데이터 패턴 감지
+   - 위치 정보 정규화
+3. **프로젝트 정보**:
+   - 프로젝트 유형 (주거용/상업용/공공용/복합용)
+   - 설치 일자, 위치, 용량, 운영사
+
+### 5. 데이터 처리
+1. **전처리 실행**: 선택된 옵션으로 데이터 처리 시작
+2. **진행 모니터링**: 실시간 진행 상태 확인
+3. **결과 확인**: 처리된 문서 다운로드 또는 RAG 시스템 적용
+
+## 기대 효과
+
+### 1. 데이터 품질 향상
+- 에너지 데이터의 정규화로 일관성 확보
+- 중복 및 무의미한 데이터 제거
+- 데이터 완성도 평가를 통한 품질 관리
+
+### 2. 분석 정확도 향상
+- PV Solar 특화 필드 선별로 분석 대상 최적화
+- 날씨/시간 요인 고려한 상관관계 분석
+- AI 기반 인사이트로 분석 깊이 증대
+
+### 3. 운영 효율성 증대
+- 자동화된 전처리로 수작업 감소
+- 표준화된 데이터 구조로 시스템 통합 용이
+- 에너지 트렌드 분석을 통한 최적 운영 조건 도출
+
+### 4. RAG 시스템 최적화
+- PV Solar 특화 임베딩으로 검색 정확도 향상
+- 테이블 기반 청킹으로 문서 구조 유지
+- GraphRAG를 통한 지식 그래프 구축
+
+## 지원하는 데이터 형식
+
+### 입력 형식
+- **Excel**: .xlsx, .xls
+- **CSV**: .csv
+- **최대 크기**: 50MB
+
+### 지원 필드 예시
+- **발전량**: energy, power, production, output, 발전량, 전력, 생산량
+- **시간**: date, time, timestamp, 시간, 날짜
+- **날씨**: weather, temperature, irradiance, 일사량, 기온
+- **성능**: performance, efficiency, 효율, 성능
+- **위치**: location, address, city, 위치, 주소
+
+## API 파라미터
+
+### 기본 RAG 파라미터
+```bash
+rag_pdf_backend=pdfplumber
+rag_generate_image_embeddings=no
+use_enhanced_embedding=no
+rag_process_text_only=yes
+rag_mode=intelligence
+overwrite=true
+user_id=ryan
+rag_enable_graphrag=no
+```
+
+### PV Solar 특화 파라미터
+```bash
+pv_solar_energy_unit=kW
+pv_solar_normalize_dates=true
+pv_solar_detect_weather=true
+pv_solar_normalize_locations=true
+pv_solar_include_metadata=true
+pv_solar_project_type=commercial
+pv_solar_installation_date=2024-01-01
+pv_solar_location=Seoul
+pv_solar_capacity=1000
+pv_solar_operator=EnergyCorp
+```
+
+## 개발 환경 설정
+
+### 1. 의존성 설치
+```bash
+cd workspaces_pv_solar
+npm install
+```
+
+### 2. 개발 서버 실행
+```bash
+npm run dev
+```
+
+### 3. 빌드
+```bash
+npm run build
+```
+
+## 주의사항
+
+1. **파일 형식**: 지원하는 파일 형식 외의 업로드는 거부됩니다
+2. **파일 크기**: 50MB를 초과하는 파일은 업로드 불가
+3. **데이터 품질**: 너무 많은 빈 값이나 의미 없는 데이터는 분석 정확도에 영향을 줄 수 있습니다
+4. **AI 분석**: AI 모드는 인터넷 연결이 필요하며, 분석 시간이 수 분 소요될 수 있습니다
+
+## 기술 스택
+
+- **프론트엔드**: Next.js 14, React 18, TypeScript
+- **UI 컴포넌트**: Lucide React 아이콘
+- **엑셀 처리**: ExcelJS
+- **AI 분석**: 범용 AI 엔드포인트 (/callai)
+- **RAG 시스템**: 기존 AI.RUN RAG 시스템과 통합
+
+## 현재 상태 및 향계 계획
+
+### 현재 구현 완료
+- ✅ PV Solar 전문 React 컴포넌트 개발
+- ✅ PV Solar 특화 API 엔드포인트 구현
+- ✅ AI 기반 필드 추천 시스템
+- ✅ PV Solar 데이터 분석 로직
+- ✅ 기본적인 메인 페이지 구성
+
+### 향계 계획
+- 🔄 대용량 PV 데이터 처리 성능 최적화
+- 🔄 실시간 데이터 처리 모드 추가
+- 🔄 다중 언어 지원 (영어/한국어)
+- 🔄 차트 및 시각화 기능 강화
+- 🔄 PV 데이터 예측 분석 모델 통합
+- 🔄 CSV 파일 직접 업로드 기능 추가
+- 🔄 배치 처리 및 스케줄링 기능
+
+## 문의 및 지원
+
+이 PV Solar 데이터 업로드 워크스페이스에 대한 문의나 개선 제안이 있으시면, 개발팀으로 연락주시기 바랍니다.

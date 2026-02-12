@@ -1,0 +1,7 @@
+python-pptx
+Pillow
+cairosvg
+PyMuPDF
+lxml
+openpyxl
+reportlab

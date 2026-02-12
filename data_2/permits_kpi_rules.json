@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "scope": [
+    "EBL",
+    "EIA",
+    "DAP",
+    "Hanjeon PPA (GIA)"
+  ],
+  "status_rules": {
+    "completed": [
+      "^yes$",
+      "^issued$",
+      "^approved$",
+      "^accepted"
+    ],
+    "in_progress": [
+      "applied",
+      "pending",
+      "review",
+      "tbd"
+    ],
+    "scheduled": [
+      "^by\\s"
+    ],
+    "unknown": [
+      "^$",
+      "null"
+    ]
+  },
+  "kpi_definitions": {
+    "total_projects": "해당 지표 값이 존재하는 프로젝트 수",
+    "completed_count": "status == completed 건수",
+    "in_progress_count": "status == in_progress 건수",
+    "scheduled_count": "status == scheduled 건수",
+    "unknown_count": "status == unknown 건수",
+    "completion_rate_pct": "(completed_count / total_projects) * 100"
+  },
+  "snapshot_from_permits_dg_pv_mna": {
+    "total_projects": 5,
+    "metrics": {
+      "EBL": {
+        "completed_count": 0,
+        "in_progress_count": 0,
+        "scheduled_count": 5,
+        "unknown_count": 0,
+        "completion_rate_pct": 0.0
+      },
+      "EIA": {
+        "completed_count": 5,
+        "in_progress_count": 0,
+        "scheduled_count": 0,
+        "unknown_count": 0,
+        "completion_rate_pct": 100.0
+      },
+      "DAP": {
+        "completed_count": 1,
+        "in_progress_count": 1,
+        "scheduled_count": 3,
+        "unknown_count": 0,
+        "completion_rate_pct": 20.0
+      },
+      "Hanjeon PPA (GIA)": {
+        "completed_count": 0,
+        "in_progress_count": 5,
+        "scheduled_count": 0,
+        "unknown_count": 0,
+        "completion_rate_pct": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "source": {
+    "file": "/work/proj/airun/002_poc/airun/pv_solar_sample_docs/지상형태양광_Inputsheet.xlsx",
+    "sheet": "Batch1 calculation",
+    "project": null,
+    "value_col": 5,
+    "value_col_letter": "E"
+  },
+  "sections": {
+    "Phase 1": [
+      {
+        "label": "김한용",
+        "value": null,
+        "row": 4
+      },
+      {
+        "label": "드림2",
+        "value": null,
+        "row": 5
+      },
+      {
+        "label": "제일테크1",
+        "value": null,
+        "row": 6
+      },
+      {
+        "label": "제일테크2",
+        "value": null,
+        "row": 7
+      },
+      {
+        "label": "이홍연",
+        "value": null,
+        "row": 8
+      },
+      {
+        "label": "가시솔라2 (오은주)",
+        "value": null,
+        "row": 9
+      },
+      {
+        "label": "행원햇빛",
+        "value": null,
+        "row": 10
+      },
+      {
+        "label": "와이제이 수산",
+        "value": null,
+        "row": 11
+      },
+      {
+        "label": "Phase 2",
+        "value": "Divide for Phase 1",
+        "row": 14
+      },
+      {
+        "label": "김한용",
+        "value": 4,
+        "row": 15
+      },
+      {
+        "label": "빛나리3",
+        "value": null,
+        "row": 16
+      },
+      {
+        "label": "빛나리4",
+        "value": null,
+        "row": 17
+      },
+      {
+        "label": "빛나리7",
+        "value": null,
+        "row": 18
+      },
+      {
+        "label": "흥산2 (김명현)",
+        "value": null,
+        "row": 19
+      },
+      {
+        "label": "이홍연",
+        "value": 4,
+        "row": 20
+      },
+      {
+        "label": "가시솔라2 (오은주)",
+        "value": null,
+        "row": 21
+      },
+      {
+        "label": "행원햇빛",
+        "value": null,
+        "row": 22
+      },
+      {
+        "label": "와이제이 덕천",
+        "value": null,
+        "row": 23
+      },
+      {
+        "label": "와이제이 수산",
+        "value": null,
+        "row": 24
+      }
+    ]
+  },
+  "flat": [
+    {
+      "section": "Phase 1",
+      "label": "김한용",
+      "value": null,
+      "row": 4,
+      "label_col": 1,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "드림2",
+      "value": null,
+      "row": 5,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "제일테크1",
+      "value": null,
+      "row": 6,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "제일테크2",
+      "value": null,
+      "row": 7,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "이홍연",
+      "value": null,
+      "row": 8,
+      "label_col": 1,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "가시솔라2 (오은주)",
+      "value": null,
+      "row": 9,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "행원햇빛",
+      "value": null,
+      "row": 10,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "와이제이 수산",
+      "value": null,
+      "row": 11,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "Phase 2",
+      "value": "Divide for Phase 1",
+      "row": 14,
+      "label_col": 1,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "김한용",
+      "value": 4,
+      "row": 15,
+      "label_col": 1,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "빛나리3",
+      "value": null,
+      "row": 16,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "빛나리4",
+      "value": null,
+      "row": 17,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "빛나리7",
+      "value": null,
+      "row": 18,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "흥산2 (김명현)",
+      "value": null,
+      "row": 19,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "이홍연",
+      "value": 4,
+      "row": 20,
+      "label_col": 1,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "가시솔라2 (오은주)",
+      "value": null,
+      "row": 21,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "행원햇빛",
+      "value": null,
+      "row": 22,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "와이제이 덕천",
+      "value": null,
+      "row": 23,
+      "label_col": 2,
+      "value_col": 5
+    },
+    {
+      "section": "Phase 1",
+      "label": "와이제이 수산",
+      "value": null,
+      "row": 24,
+      "label_col": 2,
+      "value_col": 5
+    }
+  ]
+}

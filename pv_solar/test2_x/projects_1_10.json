@@ -1,0 +1,6084 @@
+{
+  "source": {
+    "file": "/work/11.airun/solar/workspaces_pv_solar/pv_solar_sample_docs/지상형태양광_Inputsheet.xlsx",
+    "sheet": "INPUTSHEET(Batch2)",
+    "label_col": "B",
+    "type_col": "C",
+    "note_col": "D",
+    "project_columns": {
+      "Project 1": "E",
+      "Project 2": "F",
+      "Project 3": "G",
+      "Project 4": "H",
+      "Project 5": "I",
+      "Project 6": "J",
+      "Project 7": "K",
+      "Project 8": "L",
+      "Project 9": "M",
+      "Project 10": "N"
+    },
+    "excluded_hidden_rows": true
+  },
+  "projects": {
+    "Project 1": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Ssoltop Miracle Inc.",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Jangchon 1",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Haenam-gun, Jeollanam-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-05-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-07-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2026-10-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 3.52328767123288,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.2,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-10-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    },
+    "Project 2": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Ssoltop Masan 1 Solar",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Soltop Masan 1",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Youngdong-gun, Chungcheongbuk-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-05-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-07-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2026-10-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 3.9013698630137,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.2,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-10-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    },
+    "Project 3": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Mugok Inc.",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Hanil Mugok 15",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Hapcheon-gun, Gyeongsangnam-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-05-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-07-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2026-10-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 3.96438356164384,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.2,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-10-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    },
+    "Project 4": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Jigyeong Inc.",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Hanil Jigyeong 1",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Youngyang-gun, Gyeongsangbuk-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-05-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-07-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2026-10-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 3.79178082191781,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-10-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.2,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-10-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    },
+    "Project 5": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Seongsi 3 Solar",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Hanil Jigyeong 2",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Youngyang-gun, Gyeongsangbuk-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-05-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-07-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2026-10-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 3.79178082191781,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-10-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.3,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-10-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    },
+    "Project 6": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Hoduck 4 Solar",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Ho Duck4",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Goheung-gun, Jeollanam-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-05-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-07-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2026-10-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 4.09041095890411,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-10-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2026-10-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-07-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.3,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-10-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    },
+    "Project 7": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Galsan Solar",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Galsan Solar",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Bonghwa-gun, Gyeongsangbuk-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-09-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-11-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2027-02-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 3.97260273972603,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2027-02-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.3,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": 0,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": null,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2027-02-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    },
+    "Project 8": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Mineuri Solar",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Mineuri Solar",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Bonghwa-gun, Gyeongsangbuk-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-09-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-11-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2027-02-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 3.97260273972603,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2027-02-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.3,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": 0,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": null,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2027-02-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    },
+    "Project 9": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Saegol Solar",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Saegol Solar",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Bonghwa-gun, Gyeongsangbuk-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-09-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-11-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2027-02-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 3.96712328767123,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2027-02-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.3,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": 0,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": null,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2027-02-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    },
+    "Project 10": {
+      "General inputs": [
+        {
+          "label": "Seller/developer name",
+          "value": "Jaesan Solar",
+          "row": 5,
+          "type": "name"
+        },
+        {
+          "label": "Project name",
+          "value": "Jaesan Solar",
+          "row": 6,
+          "type": "name"
+        },
+        {
+          "label": "Country",
+          "value": "Korea",
+          "row": 7,
+          "type": "Please select --"
+        },
+        {
+          "label": "Region",
+          "value": "Bonghwa-gun, Gyeongsangbuk-do",
+          "row": 8,
+          "type": "Please specify the location of the plant"
+        },
+        {
+          "label": "Technology",
+          "value": "PV",
+          "row": 9,
+          "type": "Please select --"
+        },
+        {
+          "label": "Project Status",
+          "value": "RTB",
+          "row": 10,
+          "type": "Please select --"
+        },
+        {
+          "label": "Transaction structure",
+          "value": "Ground",
+          "row": 11,
+          "type": "Please provide background on the deal"
+        },
+        {
+          "label": "Input source",
+          "value": "Internal assumptions",
+          "row": 12,
+          "type": "Please specify if this input list is based on internal assumptions or seller assumptions."
+        },
+        {
+          "label": "Currency",
+          "value": "KRW",
+          "row": 14,
+          "type": "Please select currency for financial modelling purposes --"
+        },
+        {
+          "label": "RTB date",
+          "value": "2026-09-01",
+          "row": 16,
+          "type": "date (day/month/year)"
+        },
+        {
+          "label": "Construction phase",
+          "value": 5,
+          "row": 17,
+          "type": "Months"
+        },
+        {
+          "label": "SOC date",
+          "value": "2026-11-01",
+          "row": 18
+        },
+        {
+          "label": "COD date",
+          "value": "2027-02-01",
+          "row": 19,
+          "type": "date  (day/month/year)"
+        },
+        {
+          "label": "Asset Useful Life",
+          "value": 35,
+          "row": 20,
+          "type": "years",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "WTG / Panels number",
+          "value": "N/A",
+          "row": 22,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "WTG / Panels name",
+          "value": "N/A",
+          "row": 23,
+          "type": "If PV in E9 please put N/A"
+        },
+        {
+          "label": "Total Capacity DC",
+          "value": null,
+          "row": 24,
+          "type": "MWp"
+        },
+        {
+          "label": "Total Capacity AC",
+          "value": null,
+          "row": 25,
+          "type": "Mwac . If Wind in E9 please put N/A"
+        },
+        {
+          "label": "DC/AC ratio",
+          "value": null,
+          "row": 26,
+          "type": "If Wind in E9 please put N/A"
+        }
+      ],
+      "Production": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 41,
+          "type": "MWh"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 42,
+          "type": "MWh"
+        },
+        {
+          "label": "Specific Production",
+          "value": null,
+          "row": 43,
+          "type": "[kWh/kWp]"
+        },
+        {
+          "label": "Availability",
+          "value": null,
+          "row": 45,
+          "type": "%"
+        },
+        {
+          "label": "Months before degradation",
+          "value": null,
+          "row": 47,
+          "type": "%"
+        },
+        {
+          "label": "Start of degradation",
+          "value": null,
+          "row": 48,
+          "type": "%"
+        },
+        {
+          "label": "Degradation Factor",
+          "value": 0.004,
+          "row": 49,
+          "type": "%",
+          "note": "Default will be 20 years"
+        },
+        {
+          "label": "Electricity losses",
+          "value": 0.02,
+          "row": 51,
+          "type": "%"
+        },
+        {
+          "label": "Grid and BoS losses",
+          "value": null,
+          "row": 53,
+          "type": "%"
+        },
+        {
+          "label": "Other losses",
+          "value": null,
+          "row": 55,
+          "type": "%"
+        },
+        {
+          "label": "Opex - year 1",
+          "value": "Cost",
+          "row": 57,
+          "note": "Unit"
+        },
+        {
+          "label": "O&M",
+          "value": null,
+          "row": 59
+        }
+      ],
+      "Load Factor (After Curtailment)": [
+        {
+          "label": "P50",
+          "value": null,
+          "row": 31,
+          "type": "%"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 32,
+          "type": "%"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 33,
+          "type": "%"
+        }
+      ],
+      "Number of Equivalent Hours (day)": [
+        {
+          "label": "P50",
+          "value": 3.97260273972603,
+          "row": 36,
+          "type": "Hours"
+        },
+        {
+          "label": "P75",
+          "value": null,
+          "row": 37,
+          "type": "Hours"
+        },
+        {
+          "label": "P90",
+          "value": null,
+          "row": 38,
+          "type": "Hours"
+        }
+      ],
+      "Currency": [
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 61,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 62,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 63,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 64,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 65,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 66,
+          "type": "The total amount of O&M is KRW 12.5 million/MW.\nOR intends to proceed O&M through an outsourced O&M company."
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 88,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 89,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 90,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 91,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 92,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 93,
+          "type": "Calculated as KRW 2.6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 106,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": "No",
+          "row": 107,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 108,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "N/A",
+          "row": 109,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 110,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 111,
+          "type": "Calculated as KRW 6 Million/MW"
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 152,
+          "type": "Please select D60 --",
+          "note": "000/year"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 153,
+          "type": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2027-02-01",
+          "row": 154,
+          "type": "date",
+          "note": "Default will be 2026"
+        },
+        {
+          "label": "Indexation %",
+          "value": "CPI",
+          "row": 155,
+          "type": "%",
+          "note": "Please specify if it's CPI or other"
+        },
+        {
+          "label": "Cost starting date",
+          "value": "2027-02-01",
+          "row": 156,
+          "type": "date"
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 157,
+          "type": "Calculated as KRW 3.9 Million/MW. Facility operation, On-site electricity charges, Maintenance and repair operating expenses(including inverters), Security Services are included."
+        },
+        {
+          "label": "Capex",
+          "value": "Cost",
+          "row": 160,
+          "note": "Unit"
+        },
+        {
+          "label": "BOS",
+          "value": null,
+          "row": 163
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 165,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 166,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 167,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 168,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.5,
+          "row": 169,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "row": 179,
+          "type": "-50% at Signing, 40% at Pre-use inspection, 10% at COD."
+        },
+        {
+          "label": "Modules",
+          "value": null,
+          "row": 181
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 183,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 1,
+          "row": 184,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 185,
+          "type": "\\",
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 186,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 187,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 201,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": "no",
+          "row": 202,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2026-11-01",
+          "row": 203,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 204,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 205,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 219,
+          "note": "000"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 220,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 221,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 222,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 0.3,
+          "row": 223,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": 0,
+          "row": 236,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 237,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": null,
+          "row": 238,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 239,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": null,
+          "row": 240,
+          "type": "Month",
+          "note": 1
+        },
+        {
+          "label": "Cost",
+          "value": null,
+          "row": 268,
+          "note": "000/MWp"
+        },
+        {
+          "label": "Indexed?",
+          "value": 0,
+          "row": 269,
+          "note": "0 or 1"
+        },
+        {
+          "label": "Indexation reference date",
+          "value": "2027-02-01",
+          "row": 270,
+          "note": "date"
+        },
+        {
+          "label": "Indexation %",
+          "value": null,
+          "row": 271,
+          "note": "%"
+        },
+        {
+          "label": "Monthly distribution",
+          "value": 1,
+          "row": 272,
+          "type": "Month",
+          "note": 1
+        }
+      ],
+      "Comments": [
+        {
+          "label": "Development cost",
+          "value": null,
+          "row": 217
+        }
+      ]
+    }
+  }
+}

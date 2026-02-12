@@ -1,0 +1,98 @@
+[
+  {
+    "sn": 1,
+    "category": "Due Diligence",
+    "rows": [
+      {
+        "id": "1-1",
+        "name": "Technical DD – Final review",
+        "startWeekIndex": 0,
+        "endWeekIndex": 3
+      }
+    ]
+  },
+  {
+    "sn": 2,
+    "category": "Detailed Design of Power Plant",
+    "rows": [
+      {
+        "id": "1-2",
+        "name": "Detailed Design of Power Plant",
+        "startWeekIndex": 1,
+        "endWeekIndex": 6
+      }
+    ]
+  },
+  {
+    "sn": 3,
+    "category": "Material approval",
+    "rows": [
+      {
+        "id": "1-3",
+        "name": "Material approval",
+        "startWeekIndex": 1,
+        "endWeekIndex": 4
+      }
+    ]
+  },
+  {
+    "sn": 4,
+    "category": "Material Purchase",
+    "rows": [
+      {
+        "id": "1-4",
+        "name": "Material Purchase",
+        "startWeekIndex": 4,
+        "endWeekIndex": 8
+      },
+      {
+        "id": "1-5",
+        "name": "Structure (4 weeks)",
+        "startWeekIndex": 9,
+        "endWeekIndex": 12
+      }
+    ]
+  },
+  {
+    "sn": 5,
+    "category": "Structures Working",
+    "rows": [
+      {
+        "id": "1-6",
+        "name": "Module on-site receipt",
+        "startWeekIndex": 9,
+        "endWeekIndex": 10
+      },
+      {
+        "id": "1-7",
+        "name": "Module Installation",
+        "startWeekIndex": 11,
+        "endWeekIndex": 14
+      }
+    ]
+  },
+  {
+    "sn": 6,
+    "category": "Electrical work",
+    "rows": [
+      {
+        "id": "1-8",
+        "name": "Electrical work",
+        "startWeekIndex": 11,
+        "endWeekIndex": 15
+      },
+      {
+        "id": "1-9",
+        "name": "Grid connection work (KEPCO)",
+        "startWeekIndex": 16,
+        "endWeekIndex": 18
+      },
+      {
+        "id": "1-10",
+        "name": "Commissioning & pre-use inspections",
+        "startWeekIndex": 19,
+        "endWeekIndex": 20
+      }
+    ]
+  }
+]
